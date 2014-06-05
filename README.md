@@ -20,6 +20,6 @@ DenseVector(0.0, 0.0, 0.0, 0.0, 0.0)
 ```
 $ mvn -Pscala-211 clean scala:compile package shade:shade
 ...
-$ /opt/scala/scala-2.10.3/bin/scala -cp assembly.jar main.scala.Foo
+$ /opt/scala/scala-2.11.1/bin/scala -cp assembly.jar main.scala.Foo
 DenseVector(0.0, 0.0, 0.0, 0.0, 0.0)
 ```
